@@ -1,0 +1,192 @@
+* {
+    color: #e6d2d2;
+    padding: 0;
+    margin: 0;
+   }
+  
+  .toggle {
+    background: rgb(32, 15, 15);
+    align-content: center;
+    padding-top: 20px;
+   
+  }
+
+  .toggle,h3{
+    background: rgb(32, 15, 15);
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+   
+  }
+  
+  .social {
+    color: inherit;
+    padding-left: 40px;
+    font-size: 25px;
+  }
+  
+  .main {
+    background-color: #32291e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+    font-weight: bolder;
+    border: 5px solid rgb(66, 46, 17);
+    background-attachment:fixed;
+  }
+  
+  .list,em{
+    color: #dddad8;
+    text-align: center;
+    text-align: justify;
+    padding-left: 50px;
+  }
+
+  .list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid brown;
+    color: gray;
+    
+  }
+  
+  ul,h3{
+    color: rgb(237, 226, 226);
+    padding-bottom: 20px;
+  }
+
+  .breakfast {
+    /*display: flex;*/
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom:15px;
+    font-weight:lighter;
+    text-shadow: rgb(168, 125, 125);
+    align-items: center;
+  }
+  
+  .lunch {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  .dinner {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  .breakfast:hover, .lunch:hover, .dinner:hover {
+    color: brown;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bolder;
+  }
+  
+  .bbc {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .bbc-gf:hover {
+    text-decoration: underline;
+    background-color: #ffcc99;
+    border: 2px solid #fff;
+    padding: 10px;
+  }
+  
+  h3 {
+    padding-top: 30px;
+    padding-bottom: 30 px;
+  }
+  
+  .recipe, .ingredients, .ingredient {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  a, .back {
+    text-decoration: none;
+  }
+  
+  .back{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 17px;
+    padding-right:17px;
+    padding-top: 17px;
+    padding-bottom: 5%;
+   
+  }
+  
+  .btn-back {
+    background: rgba(120, 207, 207, 0.118);
+    border: 2px solid brown;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-back:hover {
+    background: #8b4806ef;
+    border: 2px solid rgb(121, 10, 10);
+    font-weight: bolder;
+  }
+  
+  .footer {
+    color: #311c1c;
+    position: relative;
+    opacity: rgba(rgba(54, 24, 24, 0.3));
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: #180e04;
+    background-color: #2a1b1b92;
+    
+  }
+   .foot{
+     opacity: rgba(99, 65, 27, 0.115);
+   }
+   
+  .copy {
+    font-weight: bolder;
+  }
+  
+  
+  .github {
+    text-decoration: underline;
+    }
+  
+  .github:hover {
+    text-decoration: underline;
+    background-color: #ffcc99;
+    border: 2px solid #fff;
+    padding: 10px;
+  }
